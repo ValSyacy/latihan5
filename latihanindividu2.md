@@ -1,6 +1,6 @@
 # Latihan Individu 2 #
 
-flowchart TD
+flowchart TD;
 ```mermaid
     A([Mulai]) --> B{{username, password}}
     B --> C[/username, password/]

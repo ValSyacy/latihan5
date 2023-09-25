@@ -1,6 +1,6 @@
 # Latihan Individu 1 #
 
-flowchart TD
+flowchart TD;
 ```mermaid
     A([Mulai]) --> B{{jarak}}
     B --> C[/nilai jarak/]
