@@ -1,7 +1,7 @@
 # Latihan Individu 1 #
 
-flowchart TD;
 ```mermaid
+flowchart TD;
     A([Mulai]) --> B{{jarak}}
     B --> C[/nilai jarak/]
     C --> D{Pemilihan Senjata}
@@ -13,8 +13,8 @@ flowchart TD;
 
 # Latihan Individu 2 #
 
-flowchart TD;
 ```mermaid
+flowchart TD;
     A([Mulai]) --> B{{username, password}}
     B --> C[/username, password/]
     C --> D{Apakah username password sesuai?}
