@@ -5,8 +5,8 @@ flowchart TD
     A([Mulai]) --> B{{jarak}}
     B --> C[/nilai jarak/]
     C --> D{Pemilihan Senjata}
-    D -->|jarak <= 5 Meter| E[Equip Melee Weapon]
-    D -->|jarak >= 5 Meter| F[Equip Ranged Weapon]
+    D --> E[Equip Melee Weapon]
+    D --> F[Equip Ranged Weapon]
     E --> G([Selesai])
     F --> G
 ```
@@ -18,10 +18,10 @@ flowchart TD
     A([Mulai]) --> B{{username, password}}
     B --> C[/username, password/]
     C --> D{Apakah username password sesuai?}
-    D -->|Ya| E[Login Berhasil]
-    D -->|Tidak| F[Login Gagal]
+    D --> E[Login Berhasil]
+    D --> F[Login Gagal]
     E --> G([Selesai])
-    F -->|input ulang username dan password|C
+    F --> C
 ```
 # Tugas Diskusi Kelompok #
 Pertanyaan 1/
